@@ -189,7 +189,6 @@ body {
   align-items: center;
   margin-top: 50px;
   height: 270px;
-  wiwdth: 100%;
 }
 .good-item {
   position: relative;
@@ -198,6 +197,9 @@ body {
   position: relative;
   z-index: 1;
   height: 270px;
+}
+.good-back:hover {
+  z-index: 3;
 }
 .arrow-back {
   position: absolute;
@@ -234,11 +236,7 @@ body {
   position: absolute;
 }
 .good:hover {
-  qvisibility: hidden;
   display: none;
-}
-.good:hover {
-  outline: 1px solid #6c6c6c;
 }
 .promo-product {
   height: 683px;
@@ -564,7 +562,6 @@ body {
 .product-description {
   position: relative;
   padding-left: 56px;
-  with: 510px;
 }
 .product-descr-h1 {
   color: #212121;
